@@ -1,0 +1,95 @@
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  height:400px;
+  background-color: #dfa7a7;
+  
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 192, 184);
+}
+
+.parent {
+  width: 100%;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgb(243, 231, 231);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #dfa7a7;
+  border-style:groove;
+  border-color: rgb(242, 141, 141);
+}
+
+/* Special styling for certain buttons */
+.btn.special {
+  background-color: #ff5733;
+  color: white;
+}
+
+.btn.special:hover {
+  background-color: #e44d29;
+}
+
+
+
