@@ -1,0 +1,169 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color for the body */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background: url("waves_bg_final.jpg");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    height: 100%
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin:30px;
+    text-shadow: 2px 2px 4px;
+}
+
+.menu {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.register {
+    font-size: 18px;
+}
+
+.login-link {
+    color: #ff9900;
+    text-decoration:underline;
+    font-weight: bold;
+    
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.headline {
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow:2px 2px 4px rgba(186, 186, 50, 0.947) ;
+    opacity: 0.8;
+    transition: opacity 0.4s ease,text-shadow 0.3s ease;
+}
+
+.subheadline {
+    font-size: 23px;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:100px;
+    margin-top: 20px;
+}
+
+.email-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size:1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hero pre{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow:2px 2px 4px rgb(77, 141, 230) ;
+    opacity: 0.6;
+    transition: opacity 0.4s ease,text-shadow 0.3s ease;
+}
+
+
+/* Style the features section */
+.features {
+    padding: 20px;
+    color:rgb(218, 209, 209);
+    background:url("features_bg2.jpg") ;
+    background-size:cover;
+    
+}
+
+.features-headings {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+.features-list {
+    margin-left: 10px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.copyright {
+    position: relative;
+    font-size: 8px;
+    color:white;
+    text-align:start;
+    
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.register {
+    margin-top: 10px;
+}
+
+.email-form {
+    flex-direction: column;
+}
+
+.email-form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.features-list {
+    text-align: left;
+}
+}
